@@ -10,9 +10,17 @@
     "hot": "mix watch --hot",
     "production": "mix --production"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FraOliv/node-sass-teambit.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FraOliv/node-sass-teambit/issues"
+  },
+  "homepage": "https://github.com/FraOliv/node-sass-teambit#readme",
   "devDependencies": {
     "laravel-mix": "^6.0.10",
     "postcss": "^8.1.14",

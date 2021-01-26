@@ -10,6 +10,13 @@
   font-family: Arial, Sans-Serif;
 }
 
+h1{
+
+     font-size: 55px;
+}
+header{
+  width: 95%;
+}
 .flexmenu {
   width: 100%;
   background-color:$bg-white;
@@ -67,21 +74,7 @@
 }
 
 
-@media screen and (min-width: 768px) {
-  .mobile-menu {
-    display: none;
-  }
-  .flex {
-    flex-direction: row;
-  }
-  .menu {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 10vw;
-    font-weight: bold;
-  }
-}
+
 
 
 
@@ -126,7 +119,41 @@
 
 .jumbo{
     display: flex;
-  width: 80%;
+  width: 95%;
   margin: auto;
 }
 
+body > main > section > div.jumbo-img > img{
+
+    width: 100%;
+}
+.jumbo-img{
+      width: 100%;
+
+}
+  
+
+@media screen and (min-width: 550px) {
+  .mobile-menu {
+    display: none;
+  }
+  .flex {
+    flex-direction: row;
+  }
+  .menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    font-weight: bold;
+  }
+ 
+
+}
+
+@media all and (max-width:550px) {
+  .jumbo{
+    flex-direction: column;
+  }
+
+}

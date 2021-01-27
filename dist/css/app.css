@@ -538,6 +538,9 @@ body > main > section > div.jumbo-img > img {
   height: 400px;
   margin-top: 10%;
 }
+.container .rabbit {
+  border-bottom: 1px solid black;
+}
 
 @media all and (max-width: 760px) {
   .jumbo {

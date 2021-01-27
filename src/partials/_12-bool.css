@@ -1,4 +1,9 @@
-
+/* DEBUG:  */
+.debug [class*="col-"] {
+  height: 200px;
+  background-color: pink;
+  border: 1px solid red;
+}
 
 /* /DEBUG:  */
 * {
@@ -312,3 +317,25 @@
   .col-offset-xs-7 {
     margin-left: calc((100%/12)*7);
   }
+
+  .col-offset-xs-8 {
+    margin-left: calc((100%/12)*8);
+  }
+
+  .col-offset-xs-9 {
+    margin-left: calc((100%/12)*9);
+  }
+
+  .col-offset-xs-10 {
+    margin-left: calc((100%/12)*10);
+  }
+
+  .col-offset-xs-11 {
+    margin-left: calc((100%/12)*11);
+  }
+
+  /* /OFFSETS xsall screen */
+}
+
+/* utility class */
+/* /utility class */

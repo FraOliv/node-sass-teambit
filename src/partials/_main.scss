@@ -30,6 +30,7 @@ body>main>section>div.jumbo-img>img {
 
 .btn-blue {
 
+
   width: 186px;
   height: 28px;
   background-color: #2C4792;
@@ -45,6 +46,7 @@ body>main>section>div.jumbo-img>img {
   font-size: 14px;
   letter-spacing: 0.2px;
   font-family: "Roboto";
+    margin-top: 2px;
 }
 
 .google-logo {
@@ -66,21 +68,22 @@ body>main>section>div.jumbo-img>img {
     width: 85%;
   }
 
- .card{
-   color: blue;
- }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 
-.section-2 {
-  .container{
+    .card {
+      flex-direction: column;
+    }
 
-
-    .card{
-
-      background-color: #2C4792;
-
+    .card img {
+      height: 150px;
     }
   }
 }
+
 
 
 @media all and (max-width:760px) {

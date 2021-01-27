@@ -6,6 +6,7 @@
 h1{
 
      font-size: 65px;
+     
 }
 
 
@@ -47,6 +48,32 @@ body > main > section > div.jumbo-img > img{
 .google-logo{
 height: 15px;
    
+}
+
+.section-2{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-pink;
+    width: 100%;
+    .title{
+       width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    width: 85%;
+    }
+    .container-flex{
+        display: flex;
+        justify-content: center;
+    align-items: center;
+        text-align: center;
+    .card{
+        flex-direction: column;
+    }
+    .card img{
+        height: 150px;
+    }
+    }
 }
 
 

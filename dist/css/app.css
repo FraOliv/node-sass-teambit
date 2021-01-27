@@ -189,9 +189,6 @@ body > main > section > div.jumbo-img > img {
   align-items: center;
   text-align: center;
 }
-.section-2 .container-flex .card {
-  flex-direction: column;
-}
 .section-2 .container-flex .card img {
   height: 150px;
 }

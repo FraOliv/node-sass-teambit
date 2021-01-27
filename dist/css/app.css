@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
 /* DEBUG:  */
-.debug [class*="col-"] {
+.debug [class*=col-] {
   height: 200px;
   background-color: pink;
   border: 1px solid red;
@@ -28,13 +28,12 @@
   clear: both;
 }
 
-[class*="col-"] {
+[class*=col-] {
   float: left;
 }
 
 /* per abbracciare tutto il contenuto dentro la row senza collassare */
 /* COLUMNS large screen */
-
 .col-lg-1 {
   width: calc((100%/12)*1);
 }
@@ -81,8 +80,7 @@
 }
 
 .col-lg-12 {
-  width: 100%
-    /* width: calc((100%/12)*12); */
+  width: 100%;
 }
 
 /* /COLUMNS large screen */
@@ -134,7 +132,6 @@
 
 /* /OFFSETS large screen*/
 @media all and (min-width: 769px) and (max-width: 1200px) {
-
   /* COLUMNS medium screen */
   .col-md-1 {
     width: calc((100%/12)*1);
@@ -182,8 +179,7 @@
   }
 
   .col-md-12 {
-    width: 100%
-      /* width: calc((100%/12)*12); */
+    width: 100%;
   }
 
   /* /COLUMNS medium screen */
@@ -235,9 +231,7 @@
 
   /* /OFFSETS medium screen */
 }
-
 @media all and (max-width: 768px) {
-
   /* COLUMNS xsall screen */
   .col-xs-1 {
     width: calc((100%/12)*1);
@@ -337,10 +331,8 @@
 
   /* /OFFSETS xsall screen */
 }
-
 /* utility class */
 /* /utility class */
-
 header {
   width: 80%;
   margin-left: 8%;
@@ -519,6 +511,7 @@ body > main > section > div.jumbo-img > img {
   align-items: center;
   background-color: #FFE7D2;
   width: 100%;
+  flex-wrap: wrapnpx mix;
 }
 .section-2 .title {
   width: 45%;
@@ -531,12 +524,19 @@ body > main > section > div.jumbo-img > img {
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-wrap: wrap;
+  padding: 50px;
 }
 .section-2 .container .card {
   flex-direction: column;
 }
 .section-2 .container .card img {
   height: 150px;
+}
+
+.container .row .col-lg-12 img {
+  height: 400px;
+  margin-top: 10%;
 }
 
 @media all and (max-width: 760px) {

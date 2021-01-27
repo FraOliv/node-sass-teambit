@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Sans-Serif;
+}
+
+h1{
+
+     font-size: 65px;
+}
+
+
+.jumbo{
+    display: flex;
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+body > main > section > div.jumbo-img > img{
+
+    width: 100%;
+        min-width: 390px;
+       
+}
+.jumbo-img{
+     width: 100%
+
+}
+.btn-blue{
+  
+      width: 186px;
+    height: 28px;
+    background-color: #2C4792;
+    border-radius: 2px;
+    box-shadow: 0 3px 4px 0 rgb(0 0 0 / 25%);
+
+}  
+  .btn-blue-text {
+    float: right;
+
+    color: $bg-white ;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+
+.google-logo{
+height: 15px;
+   
+}
+
+
+
+@media all and (max-width:760px) {
+  .jumbo{
+    flex-direction: column;
+  }
+
+}

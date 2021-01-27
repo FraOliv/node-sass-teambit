@@ -1,0 +1,120 @@
+header{
+  width: 95%;
+}
+.flexmenu {
+  width: 100%;
+  background-color:$bg-white;
+  color: $text-color-1;
+  line-height: 1.4em;
+  border-bottom: 1px solid $text-color-1;
+}
+.flex {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0.5em;
+}
+.menu {
+  display: none;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 15%;
+  font-weight: bold;
+}
+.menu:first-child {
+  display: inline-flex;
+  justify-content: left;
+  width: 80%;
+  margin-left: 0;
+  margin-right: auto;
+}
+.menu a {
+  color: $text-color-1;
+  text-decoration: none;
+  padding:0 0.5em;
+}
+.menu:nth-child(n+2):hover {
+  background-color: #c0c0c0;
+  color: #000;
+  border-radius: 0.5em;
+}
+.mobile-menu {
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  width: 1.2em;
+}
+.menu-icon {
+  font-size: 1.2em;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}
+.show {
+  display: inline-flex;
+}
+
+
+
+
+
+
+.google-btn {
+  width: 105px;
+  height: 42px;
+  background-color: $bg-white;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
+   border: 1px solid $google-blue;
+  .google-icon-wrapper {
+    position: absolute;
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    background-color: $bg-white;
+  }
+  .google-icon {
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 11px;
+    width: 18px;
+    height: 18px;
+  }
+  .btn-text {
+    float: right;
+    margin: 11px 11px 0 0;
+    color: $google-blue ;
+    font-size: 14px;
+    letter-spacing: 0.2px;
+    font-family: "Roboto";
+  }
+  &:hover {
+    box-shadow: 0 0 6px $google-blue;
+  }
+  &:active {
+    background: $button-active-blue;
+  }
+}
+
+@media screen and (min-width: 550px) {
+  .mobile-menu {
+    display: none;
+  }
+  .flex {
+    flex-direction: row;
+  }
+  .menu {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 10vw;
+    font-weight: bold;
+  }
+ 
+
+}

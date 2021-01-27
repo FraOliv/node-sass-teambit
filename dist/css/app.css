@@ -1,13 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:500);
-* {
-  box-sizing: border-box;
-  font-family: Arial, Sans-Serif;
-}
-
-h1 {
-  font-size: 55px;
-}
-
 header {
   width: 95%;
 }
@@ -83,7 +74,7 @@ header {
   background-color: white;
   border-radius: 2px;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
-  border: 1px solid #4285f4;
+  border: 1px solid #2C4792;
 }
 .google-btn .google-icon-wrapper {
   position: absolute;
@@ -104,30 +95,16 @@ header {
 .google-btn .btn-text {
   float: right;
   margin: 11px 11px 0 0;
-  color: #4285f4;
+  color: #2C4792;
   font-size: 14px;
   letter-spacing: 0.2px;
   font-family: "Roboto";
 }
 .google-btn:hover {
-  box-shadow: 0 0 6px #4285f4;
+  box-shadow: 0 0 6px #2C4792;
 }
 .google-btn:active {
   background: #1669F2;
-}
-
-.jumbo {
-  display: flex;
-  width: 95%;
-  margin: auto;
-}
-
-body > main > section > div.jumbo-img > img {
-  width: 100%;
-}
-
-.jumbo-img {
-  width: 100%;
 }
 
 @media screen and (min-width: 550px) {
@@ -147,7 +124,52 @@ body > main > section > div.jumbo-img > img {
     font-weight: bold;
   }
 }
-@media all and (max-width: 550px) {
+* {
+  box-sizing: border-box;
+  font-family: Arial, Sans-Serif;
+}
+
+h1 {
+  font-size: 65px;
+}
+
+.jumbo {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  padding-top: 5%;
+}
+
+body > main > section > div.jumbo-img > img {
+  width: 100%;
+  min-width: 390px;
+}
+
+.jumbo-img {
+  width: 100%;
+}
+
+.btn-blue {
+  width: 186px;
+  height: 28px;
+  background-color: #2C4792;
+  border-radius: 2px;
+  box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.btn-blue-text {
+  float: right;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  font-family: "Roboto";
+}
+
+.google-logo {
+  height: 15px;
+}
+
+@media all and (max-width: 760px) {
   .jumbo {
     flex-direction: column;
   }

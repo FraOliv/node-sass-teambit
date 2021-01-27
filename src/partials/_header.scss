@@ -69,7 +69,7 @@ width: 80%;
   background-color: $bg-white;
   border-radius: 2px;
   box-shadow: 0 3px 4px 0 rgba(0,0,0,.25);
-   border: 1px solid $google-blue;
+   border: 1px solid lightblue;
   .google-icon-wrapper {
     position: absolute;
     margin-top: 1px;
@@ -89,13 +89,13 @@ width: 80%;
   .btn-text {
     float: right;
     margin: 11px 11px 0 0;
-    color: $google-blue ;
+    color: $bg-lightblue ;
     font-size: 14px;
     letter-spacing: 0.2px;
     font-family: "Roboto";
   }
   &:hover {
-    box-shadow: 0 0 6px $google-blue;
+    box-shadow: 0 0 6px $bg-lightblue;
   }
   &:active {
     background: $button-active-blue;

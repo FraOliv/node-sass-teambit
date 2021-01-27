@@ -409,7 +409,7 @@ header {
   background-color: white;
   border-radius: 2px;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
-  border: 1px solid #2C4792;
+  border: 1px solid lightblue;
 }
 .google-btn .google-icon-wrapper {
   position: absolute;
@@ -430,16 +430,16 @@ header {
 .google-btn .btn-text {
   float: right;
   margin: 11px 11px 0 0;
-  color: #2C4792;
+  color: #93C7D0;
   font-size: 14px;
   letter-spacing: 0.2px;
   font-family: "Roboto";
 }
 .google-btn:hover {
-  box-shadow: 0 0 6px #2C4792;
+  box-shadow: 0 0 6px #93C7D0;
 }
 .google-btn:active {
-  background: #1669F2;
+  background: #922c2c;
 }
 
 @media screen and (min-width: 550px) {
@@ -487,7 +487,7 @@ body > main > section > div.jumbo-img > img {
 .btn-blue {
   width: 186px;
   height: 28px;
-  background-color: #2C4792;
+  background-color: #922c2c;
   border-radius: 2px;
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
 }
@@ -509,9 +509,9 @@ body > main > section > div.jumbo-img > img {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
   width: 100%;
-  flex-wrap: wrapnpx mix;
+  flex-wrap: wrap;
 }
 .section-2 .title {
   width: 45%;

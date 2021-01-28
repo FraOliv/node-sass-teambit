@@ -542,6 +542,49 @@ body > main > section > div.jumbo-img > img {
   border-bottom: 1px solid black;
 }
 
+.leftRight .left {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.leftRight .right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.leftRight .info {
+  width: 100%;
+  margin: 40px 0;
+}
+.leftRight .info .graph {
+  width: 50%;
+}
+.leftRight .info .graph img {
+  max-width: 100%;
+}
+.leftRight .info .card {
+  width: 40%;
+}
+.leftRight .info .card h3 {
+  margin-top: 10%;
+  font-size: 2rem;
+}
+.leftRight .info .card p {
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+.leftRight .info .card a {
+  margin: 20px 0;
+  text-decoration: none;
+  color: blue;
+  display: block;
+}
+.leftRight .info .card img {
+  width: 70%;
+}
+
 @media all and (max-width: 760px) {
   .jumbo {
     flex-direction: column;

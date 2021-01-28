@@ -97,6 +97,50 @@ body>main>section>div.jumbo-img>img {
   }
  
 }
+.leftRight{
+  .left{
+    @include flex(row, flex-start, flex-start);
+  }
+  .right{
+    @include flex(row, flex-end, flex-start);
+  }
+  .info{
+    width: 100%;
+    margin: 40px 0;
+    .graph{
+      width: 50%;
+      img{
+        max-width: 100%;
+      }
+    }
+    .card{
+      width: 40%;
+      h3{
+        margin-top: 10%;
+        font-size: 2rem;
+      }
+      p{
+        margin: 20px 0;
+        font-size: 1.2rem;
+      }
+      a{
+        margin: 20px 0;
+        text-decoration: none;
+        color: blue;
+        display: block;
+      }
+      img{
+        width: 70%;
+      }
+    }
+
+
+}
+}
+
+
+
+
 
 
 @media all and (max-width:760px) {

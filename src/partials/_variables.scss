@@ -10,3 +10,45 @@ $bg-lightblue: #93C7D0;
     align-items: center;
     
 }
+@mixin flex($direction: row, $justyfy: center, $align: center){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justyfy;
+  align-items: $align;
+}
+$w10: 10%;
+$w20: 20%;
+$w30: 30%;
+$w40: 40%;
+$w50: 50%;
+$w60: 60%;
+$w70: 70%;
+$w80: 80%;
+$w90: 90%;
+$w100: 100%;
+
+
+
+
+// margin & padding----
+$px5: 5px;
+$px10: 10px;
+$px15: 15px;
+$px20: 20px;
+$px25: 25px;
+$px30: 30px;
+$px35: 35px;
+$px40: 40px;
+$px45: 45px;
+$px50: 50px;
+$px55: 55px;
+$px60: 60px;
+$px70: 70px;
+$px80: 80px;
+$px90: 90px;
+$px100: 100px;
+$px120: 120px;
+$px150: 150px;
+$px200: 200px;
+$px250: 250px;
+$px300: 300px;
